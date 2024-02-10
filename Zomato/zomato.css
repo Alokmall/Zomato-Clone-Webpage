@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 300px 0 300px;
+    color: white;
+}
+#btn1{
+    height: 33px;
+    width: 80px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.126);
+    border: 1px solid white;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+.adv a{
+    text-decoration: none;
+    color: white;
+    margin-right: 18px;
+}
+#btn2{
+    border-radius: 1px solid none;
+    border-radius: 7px;
+    height: 33px;
+    width: 120px;
+    color: white;
+    background-color:#2781E7;
+}
+.Zomato{
+    background-image: url(./Images/zomato\ bg.jpeg);
+    height: 70vh;
+    background-size: cover ;
+    background-position: center;
+    /* padding: 10px 320px 0px 320px; */
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.partner{
+    color: white;
+    text-decoration: none;
+    /* padding: 0px 50px 0 50px; */
+    padding: 10px 380px 0px 380px;
+
+}
+.partner h1{
+    font-size: 30px;
+    padding: 20px 0px;
+}
+.partner p{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    
+    padding: 10px 0px;
+    padding-bottom: 10px;
+}
+#b1{
+    padding: 14px 30px;
+    color: white;
+    background-color:#2781E7;;
+    border-radius: 5px;
+    font-size: 17px;
+}
+#b1:hover{
+    background-color: rgb(70, 70, 215);
+}
+#b2{
+    padding: 14px 20px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+#p1{
+    padding: 10px 0 0 0;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+#p1 a{
+    text-decoration: none;
+    color: white;
+}
+.bgc{
+    
+    /* margin: 0px 0px; */
+    background-color:lightgray;
+    /* padding: 10px 320px 10px 320px; */
+    margin-top: 50px;
+    padding: 10px 400px 0px 400px;
+    /* padding-top: 100px; */
+    height: 300px;
+}
+.box{
+    border: 1px solid black;
+    color: black;
+    height: 230px;
+    background-color: white;
+    border-radius: 10px;
+    border-top: 100px;
+    position: relative;
+    top: -2.5rem;
+}
+.list .ul1{
+    display: flex;
+    padding-left: 60px;
+    justify-content: space-around;
+}
+#u1{
+    margin: 10px 0px;
+}
+#u2{
+    padding: 10px 0px;
+}
+.ul1{
+    display: inline-block;
+}
+.box h1{
+    text-align: center;
+    padding: 20px 0 15px 0;
+    margin: 0;
+}
+.box p{
+    text-align: center;
+    padding-bottom: 15px;
+    color: rgb(43, 42, 42);
+}
+.why{
+    padding-top: 200px;
+    text-align: center;
+    padding: 10px 320px 0px 320px;
+    background-color: white;  
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.why h1{
+    font-size: 34px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.why p{
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+}
+.box2 p{
+    padding: 10px 10px;
+    border: 1px solid white;
+    justify-content: center;
+    height: 60px;
+    width: 240px;
+    border-radius: 8px;
+    box-shadow:  rgba(0,0,0,0.35)0px 5px 15px;
+    font-size: 24px;
+}
+.white{
+    background-color: white;
+    height: 400px;
+}
+.flo{
+    background-image: url(./Images/how\ bg.webp);
+    height: 50vh;
+    background-size: cover ;
+    background-position: center;
+    
+}
+.flo h2{
+    text-align: center;
+    margin: 24px;
+    font-size: 30px;
+    padding: 50px;
+    
+}
+.box2 img{
+    align-items: center;
+    
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+
+}
+.c1{
+    border:1px solid white ;
+    height: 300px;
+    width: 275px;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    align-items: center;
+    background-color: white;
+}
+.c2{
+    border:1px solid white ;
+    height: 300px;
+    width: 275px;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    align-items: center;
+    background-color: white;
+}
+.c3{
+    border:1px solid white ;
+    height: 300px;
+    width: 275px;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    align-items: center;
+    background-color: white;
+}
+.card h3,h4,p{
+    color: black;
+    font-size: 16px;
+    padding: 10px 10px;
+    text-align: center;
+}
